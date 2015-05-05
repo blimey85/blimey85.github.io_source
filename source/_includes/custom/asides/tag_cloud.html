@@ -1,0 +1,24 @@
+<section class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Tag Cloud</h3>
+  </div>
+  <div class="list-group">
+    <div id="myCanvasContainer" style="text-align: center;">
+      <canvas width="300" height="300" id="myCanvas">
+        <p>Anything in here will be replaced on browsers that support the canvas element</p>
+      </canvas>
+    </div>
+    <div id="tags" style="display: none;">
+      <ul>
+        {% for tag in site.tags %}
+        <li>
+          <a href="/tags.html#{{ tag | first}}-ref"
+              style="font-size: {{tag | last | size | times:100 | divided_by:site.tags.size}}pt">
+            {{ tag | first }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

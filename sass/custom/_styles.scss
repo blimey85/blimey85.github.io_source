@@ -1,0 +1,78 @@
+/* nice sticky footer, from http://getbootstrap.com/examples/sticky-footer/ */
+html, body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+footer[role=contentinfo] {
+  height: 60px;
+}
+footer .container {
+  text-align: center;
+}
+
+header.page-header {
+  margin-top: 0;
+}
+
+article.post {
+  margin-bottom: 40px;
+}
+
+hr {
+  margin-top: 0;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #337ab7, rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), #337ab7, rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), #337ab7, rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), #337ab7, rgba(0, 0, 0, 0));
+}
+
+// align date block to the left
+span.date_block {
+  position: absolute;
+  left: 15px;
+}
+
+// align tag block to the right
+span.tag_block {
+  position: absolute;
+  right: 15px;
+  text-align: right;
+}
+
+// align category block to the center
+p.meta_top {
+  text-align: center;
+}
+
+//#content {
+//  margin-top: 60px;
+//}
+//
+//#body_header {
+//  height: 45px;
+//  max-height: 45px;
+//  width: 100%;
+//  position: fixed;
+//  background-color: #3c404b;
+//  background: -webkit-linear-gradient(#56585D, #2F3034);
+//  background: -moz-linear-gradient(#56585D, #2F3034);
+//  background: linear-gradient(#56585D, #2F3034);
+//  border-bottom: 1px solid #000;
+//  z-index: 999;
+//  overflow: hidden;
+//}
