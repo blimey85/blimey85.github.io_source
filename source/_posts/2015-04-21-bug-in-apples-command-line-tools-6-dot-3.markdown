@@ -8,7 +8,7 @@ categories: development
 tags: apple
 
 ---
-While trying to install ```therubyracer``` gem I ran into a problem where it couldn't find a debug file and would not build the native extension. Google reported that there is a bug in CLT 6.3 where a file is missing which is present in version 6.2. I couldn't seem to downgrade because I don't have a paid developer account so I thought I was stuck. A kind soul on [http://stackoverflow.com/a/29576048])(StackOverflow) found a workaround.
+While trying to install ```therubyracer``` gem I ran into a problem where it couldn't find a debug file and would not build the native extension. Google reported that there is a bug in CLT 6.3 where a file is missing which is present in version 6.2. I couldn't seem to downgrade because I don't have a paid developer account so I thought I was stuck. A kind soul on [http://stackoverflow.com/a/29576048](StackOverflow) found a workaround.
 
 ``` plain
 {% raw %}echo '#define _LIBCPP_ASSERT(x, m) ((void)0)' | sudo tee -a /Library/Developer/CommandLineTools/usr/include/c++/v1/__debug > /dev/null{% endraw %}
