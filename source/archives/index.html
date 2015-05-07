@@ -3,7 +3,13 @@ layout: default
 title: Blog Archives
 exclude_from_search: true
 ---
-
-{% for post in site.posts reverse %}
-	{% include archive_post.html %}
-{% endfor %}
+<article>
+  <header>
+    <h1 class="entry-title">Blog Archive</h1>
+  </header>
+  <div id="blog-archives">
+    {% for post in site.posts reverse %}
+      {% include archive_post.html %}
+    {% endfor %}
+  </div>
+</article>
