@@ -41,23 +41,44 @@ hr {
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), #337ab7, rgba(0, 0, 0, 0));
 }
 
-// align date block to the left
-span.date_block {
-  position: absolute;
-  left: 15px;
+.post_meta {
+  display: table;
+  width: 100%;
+  ul {
+    display: table-row;
+    li {
+      display: table-cell;
+      width: 33%;
+      &.time {
+        text-align: left;
+      }
+      &.categories {
+        text-align: center;
+      }
+      &.tags {
+        text-align: right;
+      }
+    }
+  }
 }
 
-// align tag block to the right
-span.tag_block {
-  position: absolute;
-  right: 15px;
-  text-align: right;
-}
-
-// align category block to the center
-p.meta_top {
-  text-align: center;
-}
+//// align date block to the left
+//span.date_block {
+//  position: absolute;
+//  left: 15px;
+//}
+//
+//// align tag block to the right
+//span.tag_block {
+//  position: absolute;
+//  right: 15px;
+//  text-align: right;
+//}
+//
+//// align category block to the center
+//p.meta_top {
+//  text-align: center;
+//}
 
 //#content {
 //  margin-top: 60px;

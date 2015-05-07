@@ -7,7 +7,7 @@
 {% endcapture %}
 
 {% unless tag == '0' %}
-  <span class="tag_block">
+
     <span class="glyphicon glyphicon-tags"></span>&nbsp;
     <span class="tags">
       {% if post %}
@@ -16,5 +16,5 @@
         {{ page.tags | tag_links }}
       {% endif %}
     </span>
-  </span>
+
 {% endunless %}
