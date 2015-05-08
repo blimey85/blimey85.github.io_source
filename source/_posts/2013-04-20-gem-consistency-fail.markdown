@@ -7,7 +7,7 @@ categories: development
 tags: gems
 
 ---
-In rails it’s common to add a ```validates_uniqueness_of``` validation to models for any fields that you want to be unique. Most of the time this is sufficient and will catch when a record is submitted that already exists. But what if two submissions come in at the same time? What if a user while registering clicks the submit button multiple times? You could run into a case where rails checks for uniqueness multiple times before the first record has time to be saved in the database, sees that they are in fact, at that point in time, unique, and allows them to go through. The database doesn’t know you want them to be unique so it gladly accepts them, and now your formerly pristine database is pristine no more.
+In rails it’s common to add a ```validates_uniqueness_of``` validation to models for any fields that you want to be unique. Most of the time this is sufficient and will catch when a record is submitted that already exists. But what if two submissions come in at the same time? What if a user while registering clicks the submit button multiple times? You could run into a case where rails checks for uniqueness multiple times before the first record has time to be saved in the database, sees that they are in fact, at that point in time, unique, and allows them to go through. The database doesn’t know you want them to be unique so it gladly accepts them, and now your formerly pristine database is pristine no more.<!-- more -->
 
 Enter this nifty little gem: [consistency_fail](https://github.com/trptcolin/consistency_fail).
 

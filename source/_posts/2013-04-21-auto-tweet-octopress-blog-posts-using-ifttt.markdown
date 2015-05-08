@@ -7,7 +7,7 @@ categories: blogging
 tags: octopress twitter automation
 
 ---
-When using a blogging platform such as Wordpress, you can typically find a plugin that will do pretty much anything. With Octopress you’re a bit more on your own. Thankfully there are services that assist with much of this. Today I setup an account on [IFTTT](https://ifttt.com/) which stands for If This, Then That. Once you have an account on here, setting up automatic tweets is trivial.
+When using a blogging platform such as Wordpress, you can typically find a plugin that will do pretty much anything. With Octopress you’re a bit more on your own. Thankfully there are services that assist with much of this. Today I setup an account on [IFTTT](https://ifttt.com/) which stands for If This, Then That. Once you have an account on here, setting up automatic tweets is trivial.<!-- more -->
 
 **Easy Steps:**
 

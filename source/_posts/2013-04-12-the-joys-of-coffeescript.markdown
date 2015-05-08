@@ -7,7 +7,7 @@ categories: development
 tags: coffeeScript jquery
 
 ---
-I just used Coffeescript for the first time. I’ve copied and pasted Coffeescript code before, of course, but this was the first time I had used it with my own code. And I’ll admit I cheated. I started with JQuery and then ran it through a converter ([http://js2coffee.org/](http://js2coffee.org/)).
+I just used Coffeescript for the first time. I’ve copied and pasted Coffeescript code before, of course, but this was the first time I had used it with my own code. And I’ll admit I cheated. I started with JQuery and then ran it through a converter ([http://js2coffee.org/](http://js2coffee.org/)).<!-- more -->
 
 **JQuery**:
 

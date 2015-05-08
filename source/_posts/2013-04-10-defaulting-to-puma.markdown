@@ -7,7 +7,7 @@ categories: development
 tags: puma rails
 
 ---
-For whatever reason I’ve switched from Webrick to Puma as my default development server. At one time I was getting some odd errors with Webrick and my cursory Google searches indicated it was an issue with Webrick itself. I assume since Webrick is bundled with Rails that it’s decent but I really haven’t heard any compelling reason to run it. Whatever the case, I made the switch to Puma but found that when I would type ```rails s``` Puma wouldn’t boot. I had to instead type ```bundle exec puma``` which of course was completely unacceptable!
+For whatever reason I’ve switched from Webrick to Puma as my default development server. At one time I was getting some odd errors with Webrick and my cursory Google searches indicated it was an issue with Webrick itself. I assume since Webrick is bundled with Rails that it’s decent but I really haven’t heard any compelling reason to run it. Whatever the case, I made the switch to Puma but found that when I would type ```rails s``` Puma wouldn’t boot. I had to instead type ```bundle exec puma``` which of course was completely unacceptable!<!-- more -->
 
 If like me, you’d rather be able to use the shorter command, do this:
 

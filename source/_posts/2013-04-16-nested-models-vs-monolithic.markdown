@@ -7,6 +7,8 @@ categories: development
 tags: rails
 
 ---
+When setting up a new database schema, one is faced with a multitude of choices and decisions that can directly impact both the performance and maintainability of said database. One decision regards Nested Models vs Monolithic Models. What are the differences and why is one better than the other?<!-- more -->
+
 We start with a user table that contains the usual suspects. The user can login, enter their basic info, and even a blurb about themselves. Then they want to link their profile to various social sites. Simple enough, on the surface.
 
 Beyond deciding which sites to support, we have to decide how we want to handle things on the back end. Do we want to go the proper router and employ nested models, or do we cram everything into the user table?

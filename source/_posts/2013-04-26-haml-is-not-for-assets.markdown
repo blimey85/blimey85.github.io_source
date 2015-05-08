@@ -8,6 +8,8 @@ tags: haml rails gems
 summary: "Sample test summary regarding HAML not working for ASSETS"
 
 ---
+Not being too familiar with HAML nor how the ```group :assets``` block works in a gemfile, I ran into a wall. Due to my own ignorance I initially theorized the blame must lay with AppFrog but further investigation lead me to where I had gone wrong and how to fix it.<!-- more -->
+
 So in my gem file I had gem 'haml' inside my assets block like this:
 
 ``` ruby

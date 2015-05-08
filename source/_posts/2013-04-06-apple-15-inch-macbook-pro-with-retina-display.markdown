@@ -10,6 +10,8 @@ tags: apple shiny toys
 
 ![image](/images/macbook-pro-with-retina-display.jpg)
 
+Why I didn't walk but ran towards the promised-land that is all things Apple.<!-- more -->
+
 After lots of fun trying to get Windows to work well with my Ruby on Rails development setup, I ended up facing not one, but two hardware failures. My Dell all-in-one machine decided it no longer wanted to turn on. Pushing the power button did absolutely nothing. No sound, no flashing lights, no dancing, singing, or putting on any kind of show. I took it to a local repair shop, thinking it’s most likely just the power switch and should be a cheap and easy fix. Nope. Because it’s an all-in-one machine, it’s nearly impossible to repair, apparently. So I called up Dell, re-upped my warranty which had expired a month or so back, and they dispatched parts and a repair man. Couple days later, we were back up and running. Six days after this, the train once again derailed. Same exact problem. Push the power button and nada. Zilch. No song and dance. So back on the phone to Dell and once again they dispatched parts and a repair man.
 
 This was not the first time I had encountered the dark-side of Dell. I had previously purchased a nice 17” laptop form them and it eventually had a screen failure. Sent it in, they replaced the screen, and all was well for about 9 months until the screen failed in the exact same manner. Of course the second failure was after the warranty had expired and so now it serves as my media center pc, connected to my tv so the monitor isn’t needed.

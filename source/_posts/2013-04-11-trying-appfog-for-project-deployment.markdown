@@ -7,7 +7,7 @@ categories: development
 tags: appfog rails
 
 ---
-I’ve been playing around with Node.js a bit and was wanting to find a hosting service where I could deploy my little test apps for testing and for showing friends. I read some good things about AppFog and felt the price was right (they offer a free intro-level service that lets you get your feet wet with minimal financial risk). Signup took just a minute and I had my basic Rails app deployed five minutes later.
+I’ve been playing around with Node.js a bit and was wanting to find a hosting service where I could deploy my little test apps for testing and for showing friends. I read some good things about AppFog and felt the price was right (they offer a free intro-level service that lets you get your feet wet with minimal financial risk). Signup took just a minute and I had my basic Rails app deployed five minutes later.<!-- more -->
 
 Interesting how they handle databases. My deploy happened entirely on the command line:
 

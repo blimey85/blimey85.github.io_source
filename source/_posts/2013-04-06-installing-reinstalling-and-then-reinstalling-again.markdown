@@ -8,7 +8,7 @@ tags: brew mac mysql postgresql
 
 ---
 
-When setting up any development environment, you strive to get everying working just right. I’ve only had my mac for around five weeks now and in that time, I’ve installed and reinstalled things more often than I care to admit. I think tonight I may have finally succeeded in getting a workable setup accomplished.
+When setting up any development environment, you strive to get everying working just right. I’ve only had my mac for around five weeks now and in that time, I’ve installed and reinstalled things more often than I care to admit. I think tonight I may have finally succeeded in getting a workable setup accomplished.<!-- more -->
 
 Since I’m using Octopress rather than Wordpress, I no longer have a need for Mamp so I’ve gone ahead and removed that. I was then able to go back to useing the MySQL that is installed via Brew. By switching back, I resolved the issues I was having previously with both command line tools not always working just right, and sockets not being utilized. Tools wanted to use /tmp/mysql.sock by default but the MAMP version had it’s own location for files, and it’s own way of doing things. Now I don’t fault MAMP for this and in fact feel it’s the right way for them do it. This keeps what they are installing completely separate from everything else, minimizing the possibility of conflicts. If you have the experience and know-how to integrate the install with the rest of the system, adding the new path to your existing path and so on, then you shouldn’t have any issues. I, however, had some issues with doing that.
 

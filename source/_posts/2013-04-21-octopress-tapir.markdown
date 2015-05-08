@@ -7,6 +7,8 @@ categories: blogging
 tags: octopress tapir search
 
 ---
+For those running Octopress and wanting to set up a full-text search of their site, something a little nicer than the stock Google Simple Search, Tapir is a valid option. It's a third party website that indexes your RSS feed and provides search tools against that data-set.<!-- more -->
+
 **Note:** You can find the relevant files on GitHub here: [octopress-tapir](https://github.com/blimey85/octopress-tapir)
 
 [Tapir](http://tapirgo.com/) search for your [Octopress](http://octopress.org/) blog!
