@@ -12,8 +12,7 @@
       <ul>
         {% for tag in site.tags %}
         <li>
-          <a href="/tags.html#{{ tag | first}}-ref"
-              style="font-size: {{tag | last | size | times:100 | divided_by:site.tags.size}}pt">
+          <a href="/tags/{{ tag | first}}" style="font-size: {{tag | last | size | times:100 | divided_by:site.tags.size}}pt">
             {{ tag | first }}
           </a>
         </li>
