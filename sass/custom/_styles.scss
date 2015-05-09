@@ -49,13 +49,25 @@ hr {
 //}
 
 .come-in {
-  animation: fadein 2s;
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -o-animation: fadein 2s; /* Opera */
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  -moz-animation: fadein 1; /* Firefox */
+  -webkit-animation: fadein ease-in  1; /* Safari and Chrome */
+  -o-animation: fadein ease-in  1; /* Opera */
+
+  animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+
+  animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  -o-animation-duration: 1.5s;
 }
 
 .already-visible {
+  opacity: 1;
   animation: none;
   -moz-animation: none; /* Firefox */
   -webkit-animation: none; /* Safari and Chrome */
