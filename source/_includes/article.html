@@ -14,16 +14,13 @@
     {% endif %}
     <hr>
     {% unless page.meta == false %}
-      <p class="meta meta_top text-muted">
-        {% include post/date.html %}{{ time }}
-
-        {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
-          | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread" itemprop="discussionUrl" data-disqus-identifier="{% if post.meta.disqus_id %}{{ post.meta.disqus_id }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">Comments</a>
-        {% endif %}
-
-        {% include post/categories.html %}
-        {% include post/tags.html %}
-      </p>
+      <div class="post_meta">
+        <ul>
+          <li class="time">{% include post/date.html %}{{ time }}</li>
+          <li class="categories">{% include post/categories.html %}</li>
+          <li class="tags">{% include post/tags.html %}</li>
+        </ul>
+      </div>
     {% endunless %}
   </header>
 {% endunless %}

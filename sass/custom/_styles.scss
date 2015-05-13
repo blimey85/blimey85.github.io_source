@@ -41,13 +41,6 @@ hr {
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), #337ab7, rgba(0, 0, 0, 0));
 }
 
-// post animation for index
-//.slide-in {
-//  position: relative;
-//  right: -400px;
-//  display: none;
-//}
-
 .come-in {
   opacity: 0;
   animation: fadeIn ease-in 1;
@@ -107,65 +100,47 @@ hr {
   }
 }
 
-.fade-in {
-  opacity:0;  /* make things invisible upon start */
-  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
-
-  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
-
-  -webkit-animation-duration:1s;
-  -moz-animation-duration:1s;
-  animation-duration:1s;
+.post_meta {
+  display: table;
+  width: 100%;
+  ul {
+    display: table-row;
+    margin-bottom: -10px;
+    li {
+      display: table-cell;
+      width: 33%;
+      &.time {
+        text-align: left;
+      }
+      &.categories {
+        text-align: center;
+      }
+      &.tags {
+        text-align: right;
+      }
+    }
+  }
 }
 
-.fade-in.one {
-  -webkit-animation-delay: 0.7s;
-  -moz-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+@media (max-width: 500px) {
+  .post_meta {
+    display: table;
+    width: 100%;
+    ul {
+      display: block;
+      margin-bottom: -10px;
+      li {
+        display: table-row;
+        &.time {
+          text-align: left;
+        }
+        &.categories {
+          text-align: left;
+        }
+        &.tags {
+          text-align: left;
+        }
+      }
+    }
+  }
 }
-
-.fade-in.two {
-  -webkit-animation-delay: 1.2s;
-  -moz-animation-delay:1.2s;
-  animation-delay: 1.2s;
-}
-
-.fade-in.three {
-  -webkit-animation-delay: 1.7s;
-  -moz-animation-delay: 1.7s;
-  animation-delay: 1.7s;
-}
-
-.fade-in.four {
-  -webkit-animation-delay: 2.2s;
-  -moz-animation-delay: 2.2s;
-  animation-delay: 2.2s;
-}
-
-.fade-in.five {
-  -webkit-animation-delay: 2.7s;
-  -moz-animation-delay: 2.7s;
-  animation-delay: 2.7s;
-}
-
-//#content {
-//  margin-top: 60px;
-//}
-//
-//#body_header {
-//  height: 45px;
-//  max-height: 45px;
-//  width: 100%;
-//  position: fixed;
-//  background-color: #3c404b;
-//  background: -webkit-linear-gradient(#56585D, #2F3034);
-//  background: -moz-linear-gradient(#56585D, #2F3034);
-//  background: linear-gradient(#56585D, #2F3034);
-//  border-bottom: 1px solid #000;
-//  z-index: 999;
-//  overflow: hidden;
-//}
