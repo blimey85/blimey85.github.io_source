@@ -46,6 +46,7 @@ hr {
   width: 100%;
   ul {
     display: table-row;
+    margin-bottom: -10px;
     li {
       display: table-cell;
       width: 33%;
@@ -62,38 +63,25 @@ hr {
   }
 }
 
-//// align date block to the left
-//span.date_block {
-//  position: absolute;
-//  left: 15px;
-//}
-//
-//// align tag block to the right
-//span.tag_block {
-//  position: absolute;
-//  right: 15px;
-//  text-align: right;
-//}
-//
-//// align category block to the center
-//p.meta_top {
-//  text-align: center;
-//}
-
-//#content {
-//  margin-top: 60px;
-//}
-//
-//#body_header {
-//  height: 45px;
-//  max-height: 45px;
-//  width: 100%;
-//  position: fixed;
-//  background-color: #3c404b;
-//  background: -webkit-linear-gradient(#56585D, #2F3034);
-//  background: -moz-linear-gradient(#56585D, #2F3034);
-//  background: linear-gradient(#56585D, #2F3034);
-//  border-bottom: 1px solid #000;
-//  z-index: 999;
-//  overflow: hidden;
-//}
+@media (max-width: 500px) {
+  .post_meta {
+    display: table;
+    width: 100%;
+    ul {
+      display: block;
+      margin-bottom: -10px;
+      li {
+        display: table-row;
+        &.time {
+          text-align: left;
+        }
+        &.categories {
+          text-align: left;
+        }
+        &.tags {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
