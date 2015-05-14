@@ -243,46 +243,48 @@ span.social-icons {
   }
 }
 
-.social-icons a:hover {
-  border: 1px solid transparent;
-}
+@media (min-width: 500px) {
+  .social-icons a:hover {
+    border: 1px solid transparent;
+  }
 
-.social-icons .fa-facebook-cont:hover {
-  background-color: #3b5998 !important;
-  box-shadow: 0 0 8px 3px #3b5998;
-}
+  .social-icons .fa-facebook-cont:hover {
+    background-color: #3b5998 !important;
+    box-shadow: 0 0 8px 3px #3b5998;
+  }
 
-.social-icons .fa-dribbble-cont:hover {
-  background-color: #ea4c89 !important;
-  box-shadow: 0 0 8px 3px #ea4c89;
-}
+  .social-icons .fa-dribbble-cont:hover {
+    background-color: #ea4c89 !important;
+    box-shadow: 0 0 8px 3px #ea4c89;
+  }
 
-.social-icons .fa-github-cont:hover {
-  background-color: #222 !important;
-  box-shadow: 0 0 8px 3px #222;
-}
+  .social-icons .fa-github-cont:hover {
+    background-color: #222 !important;
+    box-shadow: 0 0 8px 3px #222;
+  }
 
-.social-icons .fa-instagram-cont:hover {
-  background-color: #517fa4 !important;
-  box-shadow: 0 0 8px 3px #517fa4;
-}
+  .social-icons .fa-instagram-cont:hover {
+    background-color: #517fa4 !important;
+    box-shadow: 0 0 8px 3px #517fa4;
+  }
 
-.social-icons .fa-pinterest-cont:hover {
-  background-color: #cb2027 !important;
-  box-shadow: 0 0 8px 3px #cb2027;
-}
+  .social-icons .fa-pinterest-cont:hover {
+    background-color: #cb2027 !important;
+    box-shadow: 0 0 8px 3px #cb2027;
+  }
 
-.social-icons .fa-rss-cont:hover {
-  background-color: #ff6600 !important;
-  box-shadow: 0 0 8px 3px #ff6600;
-}
+  .social-icons .fa-rss-cont:hover {
+    background-color: #ff6600 !important;
+    box-shadow: 0 0 8px 3px #ff6600;
+  }
 
-.social-icons .fa-twitter-cont:hover {
-  background-color: #00aced !important;
-  box-shadow: 0 0 8px 3px #00aced;
-}
+  .social-icons .fa-twitter-cont:hover {
+    background-color: #00aced !important;
+    box-shadow: 0 0 8px 3px #00aced;
+  }
 
-.social-icons .fa-skype-cont:hover {
-  background-color: #00AFF0 !important;
-  box-shadow: 0 0 8px 3px #00AFF0;
+  .social-icons .fa-skype-cont:hover {
+    background-color: #00AFF0 !important;
+    box-shadow: 0 0 8px 3px #00AFF0;
+  }
 }
