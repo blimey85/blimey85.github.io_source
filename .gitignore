@@ -4,3 +4,5 @@
 .powrc
 .slugignore
 .travis.yml
+divshot.json
+.divshot-cache

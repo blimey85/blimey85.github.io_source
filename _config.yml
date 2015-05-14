@@ -115,3 +115,6 @@ facebook_like: false
 
 lunr_search:
   excludes: [rss.xml, atom.xml]
+
+exclude:
+  - divshot.json

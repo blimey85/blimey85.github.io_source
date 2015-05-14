@@ -15,28 +15,6 @@ html, body {
   padding: 0 0 60px;
 }
 
-/* Set the fixed height of the footer here */
-footer[role=contentinfo] {
-  padding-top: 0;
-  color: #BBC7CC;
-  background: #F7FAFB;
-}
-footer .container {
-  text-align: center;
-}
-
-footer p.credits {
-  padding-top: 25px;
-}
-
-header.page-header {
-  margin-top: 0;
-}
-
-article.post {
-  margin-bottom: 40px;
-}
-
 hr {
   margin-top: 0;
   border: 0;
@@ -45,6 +23,14 @@ hr {
   background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), #337ab7, rgba(0, 0, 0, 0));
   background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), #337ab7, rgba(0, 0, 0, 0));
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), #337ab7, rgba(0, 0, 0, 0));
+}
+
+header.page-header {
+  margin-top: 0;
+}
+
+article.post {
+  margin-bottom: 40px;
 }
 
 .come-in {
@@ -151,6 +137,31 @@ hr {
   }
 }
 
+/* Set the fixed height of the footer here */
+footer[role=contentinfo] {
+  padding-top: 0;
+  color: #BBC7CC;
+  background: #F7FAFB;
+  border-top: 1px solid;
+}
+
+footer .container {
+  text-align: center;
+}
+
+footer p.credits {
+  padding-top: 25px;
+}
+
+.fa-1_6x {
+  font-size: 1.6em;
+}
+
+.fa {
+  margin-top: 4.5px;
+  margin-left: 2px;
+}
+
 .social-icons a {
   display: block;
   float: left;
@@ -163,6 +174,12 @@ hr {
   -o-transition: all linear 200ms;
   transition: all linear 200ms;
   border-radius: 50%;
+  color: #fff;
+  background-color: #888;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
 }
 
 .social-icons a img {
@@ -187,15 +204,15 @@ hr {
 }
 
 .social-icons a:hover {
-  -webkit-box-shadow: 0 0 6px #000000;
-  -moz-box-shadow: 0 0 6px #000000;
-  box-shadow: 0 0 6px #000000;
+  -webkit-box-shadow: 0 0 8px 3px #000000;
+  -moz-box-shadow: 0 0 8px 3px #000000;
+  box-shadow: 0 0 8px 3px #000000;
 }
 
 span.social-icons {
   display: block;
   height: 32px;
-  width: 294px;
+  width: 368px;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -203,4 +220,48 @@ span.social-icons {
   left: 0;
   right: 0;
   margin-top: -16px;
+}
+
+.social-icons a:hover {
+  border: 1px solid transparent;
+}
+
+.social-icons .fa-facebook-cont:hover {
+  background-color: #3b5998 !important;
+  box-shadow: 0 0 8px 3px #3b5998;
+}
+
+.social-icons .fa-dribbble-cont:hover {
+  background-color: #ea4c89 !important;
+  box-shadow: 0 0 8px 3px #ea4c89;
+}
+
+.social-icons .fa-github-cont:hover {
+  background-color: #222 !important;
+  box-shadow: 0 0 8px 3px #222;
+}
+
+.social-icons .fa-instagram-cont:hover {
+  background-color: #517fa4 !important;
+  box-shadow: 0 0 8px 3px #517fa4;
+}
+
+.social-icons .fa-pinterest-cont:hover {
+  background-color: #cb2027 !important;
+  box-shadow: 0 0 8px 3px #cb2027;
+}
+
+.social-icons .fa-rss-cont:hover {
+  background-color: #ff6600 !important;
+  box-shadow: 0 0 8px 3px #ff6600;
+}
+
+.social-icons .fa-twitter-cont:hover {
+  background-color: #00aced !important;
+  box-shadow: 0 0 8px 3px #00aced;
+}
+
+.social-icons .fa-skype-cont:hover {
+  background-color: #00AFF0 !important;
+  box-shadow: 0 0 8px 3px #00AFF0;
 }
