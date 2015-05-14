@@ -1,3 +1,30 @@
+img.profile {
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+  border-radius: 3%;
+  -webkit-box-shadow: rgba(0,0,0,0.15) 0 0px 20px;
+  -moz-box-shadow: rgba(0,0,0,0.15) 0 0px 20px;
+  box-shadow: rgba(0,0,0,0.15) 0 0px 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: #fff 0.5em solid;
+  width: 200px;
+  margin: auto auto 10px auto;
+  display: block;
+}
+
+p.profile {
+  text-align: justify;
+  margin: 10px;
+}
+
+.navbar-default .navbar-brand {
+  color: #50585D;
+}
+
 $noise-bg: image-url('noise.png') top left !default;
 $img-border: inline-image('dotted-border.png') !default;
 
