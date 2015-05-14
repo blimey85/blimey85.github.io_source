@@ -1,35 +1,53 @@
 header.page-header {
-    margin-top: 0;
-    padding: 0;
-    border-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+  border-bottom: 0;
 }
 
 h1, h2, h3 {
-    //margin-top: 32px;
-    //margin-bottom: 12px;
-    font-weight: bold;
-    line-height: 1.3;
+  //margin-top: 32px;
+  //margin-bottom: 12px;
+  font-weight: bold;
+  line-height: 1.3;
 }
 
 h4, h5, h6 {
-    line-height: 1.3;
+  line-height: 1.3;
+}
+
+.h2, h2 {
+  font-size: 20px;
+  @media only screen and (min-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+a.navbar-brand {
+  font-family: 'Gorditas', cursive;
+  font-size: 32px;
+  @media only screen and (min-width: 768px) {
+    font-size: 48px;
+  }
 }
 
 .entry-content {
+  font-size: 12px;
+  @media only screen and (min-width: 420px) {
     font-size: 14px;
-    @media only screen and (min-width: 768px) {
-        font-size: 16px;
-    }
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 }
 
 q {
-    font-style: italic;
-    &:before {
-        content: "\201C";
-    }
-    &:after {
-        content: "\201D";
-    }
+  font-style: italic;
+  &:before {
+    content: "\201C";
+  }
+  &:after {
+    content: "\201D";
+  }
 }
 
 // Here you can easily change font faces which are used in your site.
