@@ -32,10 +32,7 @@ a.navbar-brand {
 }
 
 .entry-content {
-  font-size: 12px;
-  @media only screen and (min-width: 420px) {
-    font-size: 14px;
-  }
+  font-size: 14px;
   @media only screen and (min-width: 768px) {
     font-size: 16px;
   }
