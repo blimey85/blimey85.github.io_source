@@ -33,6 +33,9 @@ article.post {
   margin-bottom: 40px;
 }
 
+a:focus, a:hover {
+  text-decoration: none;
+}
 .come-in {
   opacity: 0;
   animation: fadeIn ease-in 1;
@@ -286,5 +289,10 @@ span.social-icons {
   .social-icons .fa-skype-cont:hover {
     background-color: #00AFF0 !important;
     box-shadow: 0 0 8px 3px #00AFF0;
+  }
+
+  .social-icons .fa-spotify-cont:hover {
+    background-color: #81b71a !important;
+    box-shadow: 0 0 8px 3px #81b71a;
   }
 }

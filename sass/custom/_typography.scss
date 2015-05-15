@@ -9,6 +9,7 @@ h1, h2, h3 {
   //margin-bottom: 12px;
   font-weight: bold;
   line-height: 1.3;
+  font-family: "Copse";
 }
 
 h4, h5, h6 {
@@ -16,14 +17,14 @@ h4, h5, h6 {
 }
 
 .h2, h2 {
-  font-size: 20px;
+  font-size: 18px;
   @media only screen and (min-width: 768px) {
-    font-size: 30px;
+    font-size: 24px;
   }
 }
 
 a.navbar-brand {
-  font-family: 'Gorditas', cursive;
+  font-family: 'Copse', serif;
   font-size: 32px;
   @media only screen and (min-width: 768px) {
     font-size: 48px;
