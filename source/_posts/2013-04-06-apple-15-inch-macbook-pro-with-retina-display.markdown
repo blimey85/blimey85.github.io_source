@@ -8,7 +8,7 @@ tags: apple shiny toys
 
 ---
 
-![image](/images/macbook-pro-with-retina-display.jpg)
+![image](/images/macbook-pro.jpg)
 
 Why I didn't walk but ran towards the promised-land that is all things Apple.<!-- more -->
 
