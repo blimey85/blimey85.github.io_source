@@ -1,4 +1,5 @@
-require 'sass-globbing'
+require "sass-globbing"
+require "bootstrap-sass"
 
 # Require any additional compass plugins here.
 project_type = :stand_alone
@@ -15,5 +16,5 @@ sass_dir = "sass"
 images_dir = "source/images"
 fonts_dir = "source/fonts"
 
-line_comments = false
-output_style = :compressed
+#line_comments = false
+#output_style = :compressed

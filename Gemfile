@@ -15,6 +15,8 @@ group :development do
   gem 'rb-fsevent', '~> 0.9'
   gem 'stringex', '~> 1.4.0'
   gem 'jekyll-lunr-js-search', :git => "https://github.com/masterfix/jekyll-lunr-js-search.git"
+  gem 'bootstrap-sass', '~> 3.3.4'
+  gem 'sass-rails', '>= 3.2'
 end
 
 gem 'sinatra', '~> 1.4.2'
