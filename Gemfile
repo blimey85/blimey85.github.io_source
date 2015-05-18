@@ -15,6 +15,7 @@ group :development do
   gem 'rb-fsevent', '~> 0.9'
   gem 'stringex', '~> 1.4.0'
   gem 'jekyll-lunr-js-search', :git => "https://github.com/masterfix/jekyll-lunr-js-search.git"
+  gem 'octopress-minify-html'
 
   # asset pipeline
   gem 'jekyll-assets'

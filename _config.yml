@@ -28,6 +28,7 @@ email:
 
 gems:
   - jekyll-lunr-js-search
+  - octopress-minify-html
 
 fixed_navigation: true # is this even being used?
 
