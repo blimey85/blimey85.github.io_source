@@ -49,15 +49,8 @@ $(document).ready(function () {
     $('#myCanvasContainer').hide();
   }
 
-  // github repos
-  github.showRepos({
-    user: 'blimey85',
-    count: 5,
-    skip_forks: true,
-    target: '#gh_repos'
-  });
 
-(function () {
+  (function () {
 
     // This function does the dirty work of finding the event type and setting the appropriate title
     var updatePageTitle = function ( evt ) {
