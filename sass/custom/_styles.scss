@@ -160,6 +160,10 @@ footer p.credits {
   font-size: 1.6em;
 }
 
+.fa-1_2x {
+  font-size: 1.2em;
+}
+
 .fa {
   margin-top: 4.5px;
   margin-left: 2px;
@@ -296,4 +300,17 @@ span.social-icons {
     background-color: #81b71a !important;
     box-shadow: 0 0 8px 3px #81b71a;
   }
+}
+
+.twitter-user {
+  width: 100%;
+  text-align: right;
+  border-top: 1px;
+  border-color: #ddd;
+  border-style: solid;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  margin: 0px;
+  padding: 5px;
 }

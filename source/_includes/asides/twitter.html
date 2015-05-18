@@ -1,15 +1,15 @@
 {% if site.twitter_user %}
 <section class="panel panel-default clearfix">
   <div class="panel-heading">
-    <h3 class="panel-title">
-      <a class="customisable-highlight" href="https://twitter.com/blimey85" title="Tweets from Twitter API">Tweets</a>
-      <a class="follow-button profile" href="https://twitter.com/blimey85" role="button" data-scribe="component:followbutton" title="Follow Twitter API on Twitter"><span class="glyphicon glyphicon-bird"></span>Follow @blimey85</a>
-    </h3>
+    <h3 class="panel-title"><i class="fa fa-1_2x fa-twitter"></i>&nbsp;&nbsp;Tweets</h3>
   </div>
   <a class="twitter-timeline" height="450px" width="100%" data-chrome="noheader nofooter noborders noscrollbar" data-dnt="true" href="https://twitter.com/blimey85" data-widget-id="595102305114005504">Tweets by @blimey85</a>
   <script>
     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
   </script>
+  <div class="twitter-user gh-profile-link pull-right text-muted">
+    <a href="https://twitter.com/{{site.twitter_user}}">@{{site.twitter_user}}</a> on Twitter
+  </div>
 </section>
 {% endif %}
