@@ -314,3 +314,44 @@ span.social-icons {
   margin: 0px;
   padding: 5px;
 }
+
+// Navbar
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+#body_header {
+  position: fixed;
+  height: 50px;
+  z-index: 999;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+}
+
+#body_header:after {
+  position: absolute;
+  content: '';
+  z-index: 90;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50px;
+  border-radius: 40% / 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 5px 10px;
+  clip: rect(50px, auto, 80px, 0);
+  transition: all .3s ease-in;
+}
+
+#main {
+  margin-top: 70px;
+}
+
+a.navbar-brand {
+  padding: 10px 15px;
+}
+
+aside.sidebar {
+  margin-top: 5px;
+}

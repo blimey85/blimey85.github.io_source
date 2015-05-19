@@ -88,5 +88,3 @@ We all have the tools and resources that we like to use. Usually these are prefe
 * [RubySteps Podcast](http://feeds.soundcloud.com/users/soundcloud:users:144422125/sounds.rss): Ruby developers, from newbies to veterans, share their stories about how they’re making remarkable careers for themselves doing what they love - programming Ruby!
 * [Start Here: Web Development](http://starthere.fm/category/webdev): Podcast about web development.
 * [Start Here: Ruby on Rails](http://starthere.fm/category/rubyonrails): Podcast about Ruby on Rails development.
-
-
