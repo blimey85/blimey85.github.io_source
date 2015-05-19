@@ -38,7 +38,16 @@ We all have the tools and resources that we like to use. Usually these are prefe
 
 * [iTerm2](https://www.iterm2.com/): iTerm2 is a terminal emulator for OS X that does amazing things. iTerm2 brings the terminal into the modern age with features you never knew you always wanted.
 
-* [oh my zsh](http://ohmyz.sh/): You're terminal never felt this good before. Oh-My-Zsh is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and a few things that make you shout... “Oh My ZSH!”
+* [OhMyZSH](http://ohmyz.sh/): You're terminal never felt this good before. Oh-My-Zsh is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and a few things that make you shout... “Oh My ZSH!”
+
+* [OhMyZSH Plugins](/oh-my-zsh/wiki/Plugins): These are the plugins I currently use.
+    + [bundler](): Enables aliases to Bundler.
+    + [git](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#git): Adds a lot of git aliases ( gx e.g. gd - git diff) and functions for pulling and for dealing with the current branch.
+    + [git-extras](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#git-extras): Support for git-extras completion. Pressing tab after the various commands should autofill authors, branches and tags depending on context.
+    + [per-directory-history](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#per-directory-history): tracks previous command history both per current directory and globally, with the ability to switch between them on the fly, bound to ctrl-g.
+    + [rails3](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#rails3): aliases for common Rails commands. Works fine with Rails 4.
+    + [wd](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#wd) (warp directory): lets you jump to custom directories in zsh, without using cd. Why? Because cd seems inefficient when the folder is frequently visited or has a long path.
+    + [z](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/z): Tracks your most used directories, based on 'frecency'. After  a  short  learning  phase, z will take you to the most 'frecent' directory that matches ALL of the regexes given on the command line.
 
 * [Command Line Power User](http://commandlinepoweruser.com/): A video series for web developers on learning a modern command line workflow with ZSH, Z and related tools.
 
@@ -48,9 +57,11 @@ We all have the tools and resources that we like to use. Usually these are prefe
 
 * [Sublime](http://www.sublimetext.com/): The text editor you'll fall in love with. Well I haven't. Don't get me wrong, I like Sublime. It's a very good editor but love is much too strong of a word. It may become love one day but at this point we aren't even exclusive. This is by far the most popular text editor for OS X and there are packages for damn near anything you could want. Super extensible, very easy to configure, and all that jazz. Plus it's rock solid, fast, never crashes, etc. Not sure why I don't use it more. Possibly because I just prefer an IDE, but it's odd because Sublime does pretty much everything I do in my IDE.
 
-* [Textmate](https://macromates.com/): Textmate used to be the gold standard for editors on OS X but then it quit getting updated. Then version 2 was talked about and it went open source. Now, a couple years later, version 2 is still coming and the beta version has been usable as your main editor for quite some time. This is the editor that started the snippet bundle explosion. Type a few characters, hit the tab key, and like magic you suddenly have a whole bunch of code staring back at you. You'll notice in a lot of other editors the mention of support for TMBundles. This is the TM they are talking about. There are bundles for nearly everything and it's trivial to add your own snippets or create your own bundles. Bundles can contain code snippets, commands, or many other things. Very powerful. But its time has come and went and I doubt it will regain the throne. I tend to use this exclusively when I need to edit a file or two but not open a whole project.
+* [TextMate](https://macromates.com/): TextMate used to be the gold standard for editors on OS X but then it quit getting updated. Then version 2 was talked about and it went open source. Now, a couple years later, version 2 is still coming and the beta version has been usable as your main editor for quite some time. This is the editor that started the snippet bundle explosion. Type a few characters, hit the tab key, and like magic you suddenly have a whole bunch of code staring back at you. You'll notice in a lot of other editors the mention of support for TMBundles. This is the TM they are talking about. There are bundles for nearly everything and it's trivial to add your own snippets or create your own bundles. Bundles can contain code snippets, commands, or many other things. Very powerful. But its time has come and went and I doubt it will regain the throne. I tend to use this exclusively when I need to edit a file or two but not open a whole project.
 
-* [Mou](http://25.io/mou/) Markdown editor for developers. Here's the thing, I don't even like this app but I use it because I haven't had the time to find anything better. So if you're working with Markdown and need a lightweight Markdown editor, Mou gets the job done. But it's not very fast, likes to freeze for a bit sometimes, and just I dunno. It's mediocre. Granted I'm on the 0.87 beta version... and as I write this 1.0 hasn't been released yet so maybe it will get better.
+* ~~[Mou](http://25.io/mou/) Markdown editor for developers. Here's the thing, I don't even like this app but I use it because I haven't had the time to find anything better. So if you're working with Markdown and need a lightweight Markdown editor, Mou gets the job done. But it's not very fast, likes to freeze for a bit sometimes, and just I dunno. It's mediocre. Granted I'm on the 0.87 beta version... and as I write this 1.0 hasn't been released yet so maybe it will get better.~~ Edit (05/19/2015): I found something better! See MacDown below. 
+
+* [MacDown](http://macdown.uranusjr.com/) Being frustrated with Mou and knowing there must be something better out there somewhere I decided it was time to switch. A quick Google search turned up MacDown and it's everything that Mou should be. From the first time you open it, it just feels better. It feels like a native Mac app and it's fast. Mou wasn't lacking in features that I wanted so I can't say for certain that MacDown has features you won't find in Mou but it's going to be my new workhorse now. Even though it's relatively new and in development for less than a year it feels polished and ready for daily use. I'm very impressed thus far. It also has great themes. I'll have to see if I can load my blog's styles into it. Would be nice to see the preview window show me how my posts are actually going to look. So if you are needing to write/edit Markdown text on a Mac, grab MacDown and you'll be quite pleased. And it's both free and open source.
 
 **IDE's:** (Integrated Development Environments)
 
@@ -69,9 +80,13 @@ We all have the tools and resources that we like to use. Usually these are prefe
     
 **Podcasts:**
 
-* Coming Soon
-    
+* [Adventures in Angular](http://devchat.tv/adventures-in-angular): A weekly show dedicated to the AngularJS framework.
+* [Angular Air](http://angular-air.com/): Angular Air is a live video podcast all about Angular hosted by egghead.io instructor Kent C. Dodds.
+* [CodeNewbie](http://www.codenewbie.org/podcast): Stories from people on their coding journey.
+* [Design vs Dev](http://agileleague.com/feed/podcast): A podcast about web development from the different perspectives of designers and developers.
+* [Ruby Rogues](http://feeds.feedwrench.com/RubyRogues.rss): Ruby Rogues is a weekly panel discussion about programming. Ruby and technologies like Rails are what we have in common, but the discussions cover parts of the Ruby ecosystem, gems (libraries) as well as programming practices, tools, and careers.
+* [RubySteps Podcast](http://feeds.soundcloud.com/users/soundcloud:users:144422125/sounds.rss): Ruby developers, from newbies to veterans, share their stories about how they’re making remarkable careers for themselves doing what they love - programming Ruby!
+* [Start Here: Web Development](http://starthere.fm/category/webdev): Podcast about web development.
+* [Start Here: Ruby on Rails](http://starthere.fm/category/rubyonrails): Podcast about Ruby on Rails development.
 
-    
-    
-    
+
