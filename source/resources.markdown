@@ -2,10 +2,8 @@
 layout: page
 title: "Resources: "
 subtitle: "What I know and use."
-date: 2015-05-15 00:26
 comments: true
 sharing: true
-footer: true
 navbar: Resources
 exclude_from_search: true
 
