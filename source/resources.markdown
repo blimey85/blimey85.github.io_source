@@ -4,6 +4,7 @@ title: "Resources: "
 subtitle: "What I know and use."
 comments: true
 sharing: true
+footer: true
 navbar: Resources
 exclude_from_search: true
 
@@ -43,7 +44,7 @@ We all have the tools and resources that we like to use. Usually these are prefe
     + [git](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#git): Adds a lot of git aliases ( gx e.g. gd - git diff) and functions for pulling and for dealing with the current branch.
     + [git-extras](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#git-extras): Support for git-extras completion. Pressing tab after the various commands should autofill authors, branches and tags depending on context.
     + [per-directory-history](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#per-directory-history): tracks previous command history both per current directory and globally, with the ability to switch between them on the fly, bound to ctrl-g.
-    + [rails3](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#rails3): aliases for common Rails commands. Works fine with Rails 4.
+    + [rails](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#rails): aliases for common Rails commands.
     + [wd](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#wd) (warp directory): lets you jump to custom directories in zsh, without using cd. Why? Because cd seems inefficient when the folder is frequently visited or has a long path.
     + [z](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/z): Tracks your most used directories, based on 'frecency'. After  a  short  learning  phase, z will take you to the most 'frecent' directory that matches ALL of the regexes given on the command line.
 
@@ -86,3 +87,5 @@ We all have the tools and resources that we like to use. Usually these are prefe
 * [RubySteps Podcast](http://feeds.soundcloud.com/users/soundcloud:users:144422125/sounds.rss): Ruby developers, from newbies to veterans, share their stories about how they’re making remarkable careers for themselves doing what they love - programming Ruby!
 * [Start Here: Web Development](http://starthere.fm/category/webdev): Podcast about web development.
 * [Start Here: Ruby on Rails](http://starthere.fm/category/rubyonrails): Podcast about Ruby on Rails development.
+
+

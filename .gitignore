@@ -6,3 +6,4 @@
 .travis.yml
 divshot.json
 .divshot-cache
+.jekyll-assets-cache

@@ -125,12 +125,14 @@ exclude:
 # Plugin: jekyll-assets
 assets:
   dirname: assets
-  baseurl: /assets/
+  #baseurl: /assets/
+  baseurl: //d3b7un3yxmozet.cloudfront.net
   sources:
     - _assets/javascripts
+    - _assets/stylesheets
   compress:
     js:   'uglifier'
-    #css:  'yui'
+    css:  'sass'
   #cachebust: hard
-  #gzip: [ text/css, application/javascript ]
-  gzip: false
+  cache: true
+  gzip: [ text/css, application/javascript ]

@@ -58,6 +58,9 @@ task :generate do
   puts "## Generating Site with Jekyll"
   system "compass compile --css-dir #{source_dir}/stylesheets"
   system "jekyll build"
+  system "cd public/assets && find . -name '*.gz' -type f | while read NAME ; do mv \"${NAME}\" \"${NAME%.gz}\"; done && cd ../../"
+  system "s3cmd rm s3://traffan-com/*"
+  system "s3cmd sync --add-header 'Content-Encoding:gzip' -rr -P --cf-invalidate  public/assets/* s3://traffan-com/"
 end
 
 desc "Watch the site and regenerate when it changes"
