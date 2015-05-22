@@ -61,6 +61,7 @@ task :generate do
   system "cd public/assets && find . -name '*.gz' -type f | while read NAME ; do mv \"${NAME}\" \"${NAME%.gz}\"; done && cd ../../"
   system "s3cmd rm s3://traffan-com/*"
   system "s3cmd sync --add-header 'Content-Encoding:gzip' --add-header 'Cache-Control: max-age=2592000' -rr -P --cf-invalidate  public/assets/* s3://traffan-com/"
+  system "s3cmd setacl s3://traffan-com/ --acl-public --recursive"
 end
 
 desc "Watch the site and regenerate when it changes"
