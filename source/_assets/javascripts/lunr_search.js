@@ -51,13 +51,18 @@ this.LunrSearch = (function() {
     var entry, i, index, len, ref, results1;
     index = this.index;
     this.entries = data.map(function(raw) {
+      if (raw.tags && raw.tags.length > 0) {
+        var tags = raw.tags.join(", ");
+      } else {
+        var tags = 'Not Tagged';
+      }
       return {
         id: raw.id + 1,
         title: raw.title,
         url: raw.url,
         body: raw.content,
         date: raw.date,
-        tags: raw.tags ? raw.tags.join(", ") : void 0,
+        tags: tags,
         category: raw.category,
         summary: raw.summary ? raw.summary : ''
 
