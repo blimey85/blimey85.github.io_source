@@ -1,0 +1,15 @@
+/* Copse Font Face - Google Fonts */
+@font-face {
+    font-family: 'copse';
+    src: url('/fonts/copse-regular-webfont.woff2') format('woff2'),
+    url('/fonts/copse-regular-webfont.woff') format('woff'),
+    url('/fonts/copse-regular-webfont.ttf') format('truetype');
+}
+
+/* Font Awesome */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("/fonts/fontawesome-webfont.woff2") format("woff2"),
+  url("/fonts/fontawesome-webfont.woff") format("woff"),
+  url("/fonts/fontawesome-webfont.ttf") format("truetype");
+}

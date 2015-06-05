@@ -1,12 +1,14 @@
 ---
 layout: post
 title: "Rails Counter_cache Frustrations"
+summary: "My battle with Rails Counter Caching - Part 1"
 date: 2013-04-23 09:04:16 -0400
 comments: true
 categories: development
 tags: rails
 
 ---
+
 For my bucket list site I need to know how many goals each user has and of those, how many are completed. Doing this with eager loading is easy but less than optimal. After watching the RailsCast on the subject ([#23 Counter Cache Column - RailsCasts](http://railscasts.com/episodes/23-counter-cache-column)), I was intrigued. This seemed like the ideal way to efficiently solve my problem.<!-- more -->
 
 I quickly set things up and for total goals, it worked perfect. Create a new goal and the counter would increment. Delete a goal and the counter would decrement. Get the count for goals for a particular user and it would only hit the user table. Nice, clean, efficient. Great, I was half way home. Went to do the same thing for the second column, the counter for completed goals and ran into a problem. You apparently can’t have more than one counter cache column like this.

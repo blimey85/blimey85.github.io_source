@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Gem: Consistency_fail"
+summary: "When you absolutely positively need to ensure uniqueness."
 date: 2013-04-20 09:24:09 -0400
 comments: true
 categories: development
@@ -11,7 +12,7 @@ In rails it’s common to add a ```validates_uniqueness_of``` validation to mode
 
 Enter this nifty little gem: [consistency_fail](https://github.com/trptcolin/consistency_fail).
 
-```
+``` plain
 gem install consistency_fail
 ```
 

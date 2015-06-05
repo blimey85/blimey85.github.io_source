@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "Issues With Caching"
+summary: "My struggle to get this blog loading as fast as possible and issues with caching."
 date: 2015-05-16 08:13:25 -0400
 comments: true
-categories: blogging
-tags: 
+categories: Blogging
+tags: Caching Speed YSlow
 
 ---
 
 In an effort to make this site load as fast as possible I've been using tools such as [YSlow](http://yslow.org/) and [PageSpeed](https://developers.google.com/speed/pagespeed/). These tools analyze your page and give you insights into how to improve the loading speed. Things such as minifying your files, using compression such as deflate or gzip, putting your js includes at the bottom of the page so that everything else loads first, and so on. I've done most of these things and have seen some improvement.
-
 <!-- more -->
 
 The latest tweak I've attempted has to do with minifying the html on this site. The site is powered by [Octopress](http://octopress.org/) and I came across a layout that someone had created, that aims to minify the html code that gets generated. This is something I hadn't considered. Stripping all white space when generating files seems so simple, yet it reduces, albeit slightly, the whitespace within files and subsequently the file size. You may only gain a few k here and there but when it's such a simple change, and you see an actual verifiable gain in file size reduction, you might as well implement it.

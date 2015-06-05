@@ -1,13 +1,18 @@
 ---
 layout: post
 title: "Counter Caching"
+summary: "My battle with Rails Counter Caching - Part 2"
 date: 2013-04-24 08:54:13 -0400
 comments: true
 categories: development
 tags: gems rails
 
 ---
-As promised, a blog post detailing the proper way to handle your counter_cache columns. <!-- more --> A bit of a recap before we delve into the new stuff: I have a need to know how many goals a user has and of those goals, how many are completed. So I have a users table and a goals table. The goals table has a user_id field and a completed field. I join the two models together with ```user has_many :goals``` and then ```goals belongs_to :user```. From that we can query how many goals a user has, and then how many goals are completed. We can improve this a bit with eager loading however when using eager loading, we’re loading a lot more data than we really need. All we care about is the total count and the completed count. Loading titles, descriptions, and all the other data in the goals table is very inefficient.
+
+As promised, a blog post detailing the proper way to handle your counter_cache columns.
+<!-- more -->
+
+A bit of a recap before we delve into the new stuff: I have a need to know how many goals a user has and of those goals, how many are completed. So I have a users table and a goals table. The goals table has a user_id field and a completed field. I join the two models together with ```user has_many :goals``` and then ```goals belongs_to :user```. From that we can query how many goals a user has, and then how many goals are completed. We can improve this a bit with eager loading however when using eager loading, we’re loading a lot more data than we really need. All we care about is the total count and the completed count. Loading titles, descriptions, and all the other data in the goals table is very inefficient.
 
 So we decide to use a ```counter_cache``` column but discover that apparently the fine folks behind Rails don’t actually ever use this feature, or if they do, they are using it in some manner unbeknown to me as for my needs, I’m almost always going to need to know more than just one count on a particular model. Goals and completed goals or books and how many of those have been read or well, you get the idea.
 

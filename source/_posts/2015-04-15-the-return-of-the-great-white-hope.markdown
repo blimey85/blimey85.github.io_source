@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The return of the great white hope."
+summary: "After a two year hiatus I return well refreshed and ready to take on the coding world."
 date: 2015-04-15 14:25:27 -0400
 comments: true
 categories: blogging

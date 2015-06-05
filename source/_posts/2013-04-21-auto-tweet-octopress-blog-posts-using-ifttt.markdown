@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Auto-Tweet Octopress Blog Posts Using IFTTT"
+summary: "Automatic social updates when you publish a new post, even with a static site."
 date: 2013-04-21 09:06:42 -0400
 comments: true
 categories: blogging

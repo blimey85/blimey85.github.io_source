@@ -8,6 +8,7 @@
 
   <article>
     <h1><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h1>
+    <h5>{{ post.summary }}</h5>
     <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
     <footer>
       <span class="categories">{% include post/categories.html %} {% include post/tags.html %}</span>

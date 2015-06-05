@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Apple 15-inch MacBook Pro With Retina Display"
+summary: "Christmas came early and I became the proud owner of a shiny new MacBook Pro."
 date: 2013-04-06 06:03:00 -0400
 comments: true
-categories: hardware
-tags: apple shiny toys
+categories: Hardware
+tags: Apple Shiny Toys
 
 ---
 

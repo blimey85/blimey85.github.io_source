@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Bug in Apple's Command Line Tools 6.3"
+summary: "Missing debug file in CLT 6.3 prevents native gem installation."
 date: 2015-04-21 02:38:07 -0400
 comments: true
-summary: Missing debug file in CLT 6.3 prevents native gem installation.
 categories: development
 tags: apple
 

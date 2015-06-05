@@ -6,15 +6,13 @@ url: http://traffan.com
 title: Ramblings on Rails
 subtitle: Code is poetry and I'm an aspiring poet.
 author: Gary Traffanstedt
-#simple_search: https://www.google.com/search
-lunr_sarch: true
 description: Gary Traffanstedt's blog - adventures in coding by a former and aspiring code monkey.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
 # Additionally, %o will give you the ordinal representation of the day
-date_format: '%a %e %b %Y'
+#date_format: '%b %e %Y'
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
@@ -27,8 +25,8 @@ email:
 # ----------------------- #
 
 gems:
-  - jekyll-lunr-js-search
   - octopress-minify-html
+  - octopress-date-format
 
 fixed_navigation: true # is this even being used?
 
@@ -116,8 +114,8 @@ google_analytics_tracking_id: #UA-40029059-1
 # Facebook Like
 facebook_like: false
 
-lunr_search:
-  excludes: [rss.xml, atom.xml]
+lunr_search: true
+  #excludes: [rss.xml, atom.xml]
 
 exclude:
   - divshot.json

@@ -7,8 +7,7 @@ html, body {
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
-  height: auto !important;
-  height: 100%;
+  height: auto;
   /* Negative indent footer by its height */
   margin: 0 auto -45px;
   /* Pad bottom by footer height */
@@ -352,6 +351,63 @@ a.navbar-brand {
   padding: 10px 15px;
 }
 
+nav li a {
+  font-size: 18px;
+  font-family: 'copse';
+  font-weight: bold;
+}
+
 aside.sidebar {
   margin-top: 5px;
+}
+
+// make code block captions bold
+figcaption {
+  font-weight: bold;
+}
+
+// hide line numbers in code blocks
+td.gutter {
+  display: none;
+}
+
+.blog-index h1 {
+  font-size: 2em;
+}
+
+.blog-index h2 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.blog-index h2:before {
+  content: open-quote;
+  font-style: normal;
+}
+
+.blog-index h2:after {
+  content: close-quote;
+  font-style: normal;
+}
+
+#content {
+  position: relative;
+}
+
+#search-results {
+  text-align: center;
+  z-index: 999;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  overflow-x: auto;
+  right: 0px;
+  top: -10px;
+}
+
+.entries {
+  padding: 0 5px;
 }

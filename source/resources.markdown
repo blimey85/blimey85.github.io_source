@@ -52,6 +52,10 @@ We all have the tools and resources that we like to use. Usually these are prefe
 
 * [Command Line Crash Course](http://cli.learncodethehardway.org/): This is a mini-book that teaches you Unix or Windows command line skills. Unlike the "Learn The Hard Way" series, this crash course is designed to get you mostly capable in a few hours to a few 	days.
 
+**Design Related** (CSS, Fonts, HTML, Etc.)
+
+* [Font Squirrel](http://www.fontsquirrel.com/): Font Squirrel is your best resource for FREE, hand-picked, high-quality, commercial-use fonts. Their code generator takes the guess work out of how to properly link to the web fonts you want to use, optimized for compatibility and speed.
+
 **Editors:** (Text editors for code monkeys.)
 
 * [Sublime](http://www.sublimetext.com/): The text editor you'll fall in love with. Well I haven't. Don't get me wrong, I like Sublime. It's a very good editor but love is much too strong of a word. It may become love one day but at this point we aren't even exclusive. This is by far the most popular text editor for OS X and there are packages for damn near anything you could want. Super extensible, very easy to configure, and all that jazz. Plus it's rock solid, fast, never crashes, etc. Not sure why I don't use it more. Possibly because I just prefer an IDE, but it's odd because Sublime does pretty much everything I do in my IDE.

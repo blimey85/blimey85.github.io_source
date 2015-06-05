@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Octopress Tapir"
+summary: "How I setup Tapir search for my Octopress blog and the files I used."
 date: 2013-04-21 06:17:11 -0400
 comments: true
 categories: blogging

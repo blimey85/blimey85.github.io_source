@@ -1,14 +1,35 @@
 {% javascript app %}
 
 {% raw %}
-<script id="search-results-template" type="text/mustache">
-  {{#entries}}
+<script>
+    $(document).keyup(function(e) {
+        if (e.keyCode == 27) {
+            $("#search-results").hide();
+            $('#search-query').val('');
+        }
+    });
+    $(document).mouseup(function(e) {
+        var container = $("#search-results");
+        if (!container.is(e.target) && container.has(e.target).length === 0) {
+            container.hide();
+            $('#search-query').val('');
+        }
+    });
+</script>
+<script id="search-results-template" type="text/x-handlebars-template">
+    {{#entries}}
     <article>
-      <h3>
-        {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
-        <a href="{{url}}">{{title}}</a>
-      </h3>
+        <h3>
+            <a href="{{url}}">{{title}}</a>
+        </h3>
+        {{summary}}
+        <p>
+            <i class="fa fa-calendar"></i>&nbsp;{{ date }}
+            <i class="fa fa-list"></i>&nbsp;{{ category }}
+            <i class="fa fa-tags"></i>&nbsp;{{ tags }}
+        </p>
+
     </article>
-  {{/entries}}
+    {{/entries}}
 </script>
 {% endraw %}

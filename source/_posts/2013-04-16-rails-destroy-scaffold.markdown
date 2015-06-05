@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Rails Destroy Scaffold"
+summary: "And on this day I discover 'rails destroy scaffold'"
 date: 2013-04-16 06:37:51 -0400
 comments: true
 categories: development

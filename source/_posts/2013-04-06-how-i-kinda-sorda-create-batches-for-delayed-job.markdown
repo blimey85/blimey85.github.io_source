@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How I Kinda Sorda Create Batches for Delayed_job."
+summary: "How I use Delayed_job to batch process 4,000+ images twice per week, and then run additional tasks when the batch has completed."
 date: 2013-04-06 03:05:41 -0400
 comments: true
 categories: development
@@ -8,7 +9,7 @@ tags:  delayed_job rails ruby
 
 ---
 
-For a recent project I found myself needing to batch process a large number of images twice per week. On average I’d be processing around 4,000 images and once processed, would need to tar these up and then upload them to the data center. Now we could debate the merits of this approach and I believe we’d be in complete agreement that there absolutely must, and is, many different ways to achieve the same end result, but that was beyond my control. My task was to process and upload the images.<!-- more -->
+For a recent project I found myself needing to batch process a large number of images twice per week. On average I’d be processing around 4,000 images and once processed, would need to tar these up and then upload them to the data center. Now we could debate the merits of this approach and I believe we’d be in complete agreement that there are many different ways to achieve the same end result, but that was beyond my control. My task was to process and upload the images.<!-- more -->
 
 The current setup was/is php and if you know me, you know that while I’m a php dev, I’ve never really cared for the language. I started this journey into code poetry with perl which I still to this day have much love and respect for. Well, to be honest, I started many years prior in other languages besides perl. Something on my Texas Instrument machine back in ‘81 or ‘82. Applesoft Basic around ‘87. Dabbled a bit with Pascal back then too. But anyway, Perl was the first language I really dug into and used professionally. When php came around I started using it and eventually it became my primary language for everything. This was a conscious decision I made, but then again, being a programmer was never a conscious choice I made either.
 
