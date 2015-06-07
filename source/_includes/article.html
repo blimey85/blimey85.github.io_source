@@ -1,50 +1,44 @@
 {% unless page.no_header %}
-  <header class="page-header">
-    {% if index %}
-      <h1 class="entry-title" itemprop="name headline">
-        <a href="{{ root_url }}{{ post.url }}" itemprop="url">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
-      </h1>
-      {% if post.summary %}
-        <h2>
-          {{ post.summary }}
-        </h2>
-      {% endif %}
-    {% else %}
-      <h2 class="entry-title" itemprop="name headline">
-          {% if site.titlecase %}<a>{{ page.title | titlecase }}{% else %}{{ page.title }}</a>{% endif %}
-          {% if page.subtitle %}
-              <small>
-                  {% if site.titlecase %}{{ page.subtitle | titlecase }}{% else %}{{ page.subtitle }}{% endif %}
-              </small>
-          {% endif %}
-        </a><br>
-          {% if page.summary %}
-          <small>
-            {{ page.summary }}
-          </small>
-          {% endif %}
-      </h2>
-    {% endif %}
-    <hr>
-    {% unless page.meta == false %}
-      <div class="post_meta">
-        <ul>
-          <li class="time">{% include post/date.html %}{{ time }}</li>
-          <li class="categories">{% include post/categories.html %}</li>
-          <li class="tags">{% include post/tags.html %}</li>
-        </ul>
-      </div>
-    {% endunless %}
-  </header>
+    <header class="page-header">
+
+            <h1 class="entry-title" itemprop="name headline">
+                {% if post.title %}
+                    <a href="{{ root_url }}{{ post.url }}" itemprop="url">{{ post.title }}</a>
+                {% elsif page.title %}
+                    <a href="{{ root_url }}{{ page.url }}" itemprop="url">{{ page.title }}</a>
+                {% endif %}
+            </h1>
+            {% if post.summary %}
+                <h2>
+                    {{ post.summary }}
+                </h2>
+            {% endif %}
+            {% if page.summary %}
+                <h2>
+                    {{ page.summary }}
+                </h2>
+            {% endif %}
+
+        <hr>
+        {% unless page.meta == false %}
+            <div class="post_meta">
+                <ul>
+                    <li class="time">{% include post/date.html %}{{ time }}</li>
+                    <li class="categories">{% include post/categories.html %}</li>
+                    <li class="tags">{% include post/tags.html %}</li>
+                </ul>
+            </div>
+        {% endunless %}
+    </header>
 {% endunless %}
 {% if index %}
-  <div class="entry-content clearfix" itemprop="articleBody description">{{ content | excerpt }}</div>
-  {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-  {% if excerpted == 'true' %}
-    <footer>
-      <a class="btn btn-default" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
-    </footer>
-  {% endif %}
+    <div class="entry-content clearfix" itemprop="articleBody description">{{ content | excerpt }}</div>
+    {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+    {% if excerpted == 'true' %}
+        <footer>
+            <a class="btn btn-default" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
+        </footer>
+    {% endif %}
 {% else %}
-<div class="entry-content clearfix" itemprop="articleBody description">{{ content }}</div>
+    <div class="entry-content clearfix" itemprop="articleBody description">{{ content }}</div>
 {% endif %}

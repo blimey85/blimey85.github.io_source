@@ -2,15 +2,21 @@
 {% capture this_year %}{{ date | date: "%Y" }}{% endcapture %}
 {% unless year == this_year %}
   {% assign year = this_year %}
-
-  <h2>{{ date | date: "%Y" }}</h2>
+  <h2 class="archive-year">{{ date | date: "%Y" }}</h2>
 {% endunless %}
 
   <article>
-    <h1><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h1>
-    <h5>{{ post.summary }}</h5>
-    <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
-    <footer>
-      <span class="categories">{% include post/categories.html %} {% include post/tags.html %}</span>
-    </footer>
+    <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h1>
+    <h2>{{ post.summary }}</h2>
+
+    <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>
+      {{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}
+    </time>
+
+    <div class="post_meta">
+      <ul>
+        <li class="categories">{% include post/categories.html %}</li>
+        <li class="tags">{% include post/tags.html %}</li>
+      </ul>
+    </div>
   </article>

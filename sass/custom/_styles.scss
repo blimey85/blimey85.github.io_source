@@ -371,11 +371,11 @@ td.gutter {
   display: none;
 }
 
-.blog-index h1 {
+h1 {
   font-size: 2em;
 }
 
-.blog-index h2 {
+h2 {
   text-align: center;
   margin-top: 0;
   font-size: 1.2em;
@@ -383,12 +383,12 @@ td.gutter {
   font-style: italic;
 }
 
-.blog-index h2:before {
+h2:before {
   content: open-quote;
   font-style: normal;
 }
 
-.blog-index h2:after {
+h2:after {
   content: close-quote;
   font-style: normal;
 }

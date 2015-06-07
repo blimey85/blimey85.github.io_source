@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Resources: "
+title: "Resources"
 subtitle: "What I know and use."
 comments: true
 sharing: true
