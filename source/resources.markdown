@@ -26,6 +26,10 @@ We all have the tools and resources that we like to use. Usually these are prefe
 
 * [BetterTouchTool](http://www.bettertouchtool.net/): If you have a magic mouse or trackpad you need this! BetterTouchTool is a great, feature packed FREE app that allows you to configure many gestures for your Magic Mouse, Macbook Trackpad and Magic Trackpad. It also allows you to configure actions for keyboard shortcuts, normal mice and the Apple Remote. It also adds window snapping which is something I use often. Drag a window to the right or left edge of the screen and the app goes to 50% on that side. Drag it to the top most edge and it goes full-screen. Not OS X full-screen mind you, but the normal standard 100% of the screen type of full-screen.
 
+* [Skim](http://skim-app.sourceforge.net/): Skim is a PDF reader that is very good at handling large PDF files. The built in Preview app does a decent at displaying smaller PDF files but is know to struggle with very large files. I often get crashes with PDF's that are 100+ Megabytes. I have yet to experience any crashes with Skim. It also seems to scroll larger files quicker than Preview. Since it's free, no reason not to switch.
+
+* [ImageOptim](https://imageoptim.com/): ImageOptim is a free app that makes images take up less disk space and load faster, without sacrificing quality. It optimizes compression parameters, removes junk metadata and unnecessary color profiles. This is the best and fasted image optimization tool I've come across. Drag your images folder onto the app and it will optimize the images in-place. Great speed and great reduction in file sizes.
+
 **GIT:** (Distributed Version Control - USE THIS!!!)
 
 * [Git Immersion](http://gitimmersion.com/index.html): GIT Immersion is a guided tour that walks through the fundamentals of GIT, inspired by the premise that to know a thing is to do it.
